@@ -21,7 +21,7 @@ export class BinanceService
     static async getActiveSymbols(
         ): Promise<BinanceSymbol[]>
     {
-        const exchangeInfo = await this.getExchangeInfo();
+        const exchangeInfo = await BinanceService.getExchangeInfo();
         
         return exchangeInfo.symbols.filter(
             symbol => symbol.status === 'TRADING' && symbol.isSpotTradingAllowed
