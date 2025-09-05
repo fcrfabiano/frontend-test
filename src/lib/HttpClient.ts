@@ -1,6 +1,6 @@
 // -- IMPORT
 
-import { ApplicationSettings } from './application_settings';
+import { ApplicationSettings } from '../config/ApplicationSettings';
 
 // -- TYPES
 
