@@ -109,6 +109,8 @@ const watchlistReducer = ( state: WatchlistState, action: WatchlistAction ): Wat
 
 export const TradingContext = createContext<TradingContextType | null>( null );
 
+// -- FUNCTIONS
+
 export function TradingProvider(
     { children }: { children: React.ReactNode }
     )
