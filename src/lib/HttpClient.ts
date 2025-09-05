@@ -28,12 +28,10 @@ export class HttpClient
         resource: string
         ): Promise<TResult>
     {
-        const headerMap = HttpClient.getHeaders();
         const requestOptionMap: RequestInit =
             {
                 method: 'GET',
-                redirect: 'follow',
-                headers: headerMap
+                redirect: 'follow'
             };
 
         const url = ApplicationSettings.API_URL + resource;
