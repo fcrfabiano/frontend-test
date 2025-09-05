@@ -10,7 +10,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { RefreshCw, Wifi, WifiOff, TrendingUp } from 'lucide-react';
-import { getClassNames } from '@/lib/Utils';
+import { getClassNames } from '@/lib/Utils.ts';
 
 // -- FUNCTIONS
 
